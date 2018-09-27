@@ -648,7 +648,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,234,450);
 	this.Rod_Button.setTransform(-120.5,359.6,1.069,1.069,0,0,0,117,225);
 	new cjs.ButtonHelper(this.Rod_Button, 0, 1, 2, false, new lib.RodButton(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.Rod_Button).to({regX:117.1,regY:225.1,x:330.3,y:359.7},11).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.Rod_Button).to({regX:117.1,regY:225.1,x:387.4,y:364.4},11).wait(19));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(266.5,299,870.6,602);
