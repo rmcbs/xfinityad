@@ -55,33 +55,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,234,450);
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_11 = function() {
-		/* Mouse Over Event
-		Mousing over the symbol instance executes a function in which you can add your own custom code.
-		
-		Instructions:
-		1. Add your custom code on a new line after the line that says "// Start your custom code" below.
-		The code will execute when the symbol instance is moused over.
-		frequency is the number of the times event should be triggered.
-		*/
-		var frequency = 3;
-		stage.enableMouseOver(frequency);
-		this.Rod_Button.addEventListener("mouseover", fl_MouseOverHandler);
-		
-		function fl_MouseOverHandler()
-		{
-			// Start your custom code
-			// This example code displays the words "Moused over" in the Output panel.
-			this.gotoAndPlay(2);
-			// End your custom code
-		}
-	}
 	this.frame_29 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(11).call(this.frame_11).wait(18).call(this.frame_29).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(29).call(this.frame_29).wait(1));
 
 	// Layer_1
 	this.shape = new cjs.Shape();
