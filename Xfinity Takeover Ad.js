@@ -149,7 +149,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,135.1,26.6);
 		this.button_1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("http://www.completebasementsystems.net", "_blank");
+			window.open("http://bit.ly/2zAAbj0", "_blank");
 		}
 	}
 	this.frame_29 = function() {
